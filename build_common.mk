@@ -46,7 +46,6 @@ classes.dex: $(ANDROIDJAR) $(JAVASRCS) | res.apk
 				 -h jni $(JAVAFLAGS) {} +
 	find java -type f -name \*.class \
 		  -exec $(DX) --classpath $(ANDROIDJAR) \
-				--min-api $(ANDROID_PLATFORM) \
 				$(DXFLAGS) {} +
 
 -include $(DEPS)

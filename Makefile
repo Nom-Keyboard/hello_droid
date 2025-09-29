@@ -6,6 +6,7 @@ AAPTLDFLAGS += --target-sdk-version 35
 #AAPTLDFLAGS += --version-name $(APP_VER)
 #AAPTLDFLAGS += --version-code $(APP_VERCODE)
 BYTECODE_VER := 17
+DXFLAGS += --min-api 34
 #DXFLAGS += --release
 
 #CFLAGS += -flto
